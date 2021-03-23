@@ -1,20 +1,35 @@
 {
-  "name": "travel-jinni",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.0.9",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.4"
-  }
+    "name": "travel-jinni",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint --fix . --ext .js",
+        "format": "prettier --write './**/*.{js,jsx,css,md,json}' --config ./.prettierrc"
+    },
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run build && npm run lint"
+        }
+    },
+    "dependencies": {
+        "next": "10.0.9",
+        "react": "17.0.1",
+        "react-dom": "17.0.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "eslint": "^7.22.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-react": "^7.23.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "husky": "^4.3.8",
+        "postcss": "^8.2.8",
+        "prettier": "^2.2.1",
+        "tailwindcss": "^2.0.4"
+    }
 }
