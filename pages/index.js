@@ -15,9 +15,7 @@ export default function Home() {
 
                     <div className="flex">
                         <div className="flex-col text-center mx-1 w-10">
-                            <h2 className={styles.pFlexT}>
-                                10
-                            </h2>
+                            <h2 className={styles.pFlexT}>10</h2>
                             <p className={styles.txtSpan}>Weeks</p>
                         </div>
                         <div className="flex-col text-center mx-1 w-10">
@@ -44,14 +42,14 @@ export default function Home() {
                         <p className="px-2">|</p>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
+                            className="h-6 w-6"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
                                 d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                             />
                         </svg>
@@ -60,10 +58,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="border-t border-gray-500"></div>
-            <div className="flex px-14 py-4 bg-red-800">
-                <div className="w-60 bg-yellow-900">
+            <div className="flex flex-col px-5 md:px-14 py-4 md:flex-row justify-between">
+                <div className="w-full md:w-60">
                     <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
-                    <ul>
+                    <ul class="flex flex-row md:flex-col ">
                         <li className="w-8 h-8 flex items-center justify-center">FEB</li>
                         <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
                             15
@@ -75,24 +73,40 @@ export default function Home() {
                         <li className="w-8 h-10 flex items-center justify-center text-xs">20</li>
                     </ul>
                 </div>
-                {/* <div>
-                    <div className="flex pl-40 pt-16">
-                        <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
+
+
+
+
+                <div class="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">
+                    <div class="flex justify-center pl-0 pt-16 ">
+                        <div class="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
                             <img src="/logo.png" className="w-18 h-18 rounded-full" />
                         </div>
                         <div className="ml-4 text-center border border-white">
-                            <h1 className="head-t font-bold font-mono tracking-wide px-3">HILTON HOTEL</h1>
-                            <h2 className="bg-white text-black text-xl pb-1">POWERED BY TRAVEL JINNI</h2>
+                            <h1 className="head-t font-bold font-mono tracking-wide px-3">
+                                HILTON HOTEL
+                            </h1>
+                            <h2 className="bg-white text-black text-xl pb-1">
+                                POWERED BY TRAVEL JINNI
+                            </h2>
                         </div>
                     </div>
-                    <div className="div-w ml-40 text-center border-white border mt-2 pt-8 px-4 bg-gray-400 bg-opacity-10 blur-filter rounded-md">
-                        <h1 className="text-5xl font-serif font-bold pb-5 px-4">Your Trip Awaits You!</h1>
+                    <div className="w-full text-center border-white border mt-2 pt-8 px-4 bg-gray-400 bg-opacity-10 blur-filter rounded-md">
+                        <h1 className="text-5xl font-serif font-bold pb-5 px-4">
+                            Your Trip Awaits You!
+                        </h1>
                         <p className="text-sm pb-5">
-                            We have taken some time to help plan your trip to make it a memmorable one. Access your calender for even more things you can do on your trip.
+                            We have taken some time to help plan your trip to make it a memmorable
+                            one. Access your calender for even more things you can do on your trip.
                         </p>
-                        <button className="bg-yellow-300 w-full border-black border-2 text-black font-bold py-2 mb-5">ACCESS CALENDAR</button>
+                        <button className="bg-yellow-300 w-full border-black border-2 text-black font-bold py-2 mb-5">
+                            ACCESS CALENDAR
+                        </button>
                     </div>
-                </div> */}
+                </div>
+                <div class="">
+
+                </div>
             </div>
         </div>
     );
