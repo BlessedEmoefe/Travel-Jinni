@@ -1,4 +1,4 @@
-export const Card = () => {
+export function Card() {
     return (
         <div className="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">
             <div className="flex justify-center pl-0 pt-16 ">
@@ -22,4 +22,4 @@ export const Card = () => {
             </div>
         </div>
     );
-};
+}

@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css';
 
-export const LanguageTranslator = () => {
+export function LanguageTranslator() {
     return (
         <div className="flex text-sm py-5">
             <p className="px-2">My Trips</p>
@@ -23,4 +23,4 @@ export const LanguageTranslator = () => {
             </div>
         </div>
     );
-};
+}
