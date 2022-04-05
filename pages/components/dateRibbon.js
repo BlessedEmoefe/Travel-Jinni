@@ -1,4 +1,4 @@
-export function DateRibbon() {
+export default function DateRibbon() {
     return (
         <div className="w-full md:w-60">
             <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>

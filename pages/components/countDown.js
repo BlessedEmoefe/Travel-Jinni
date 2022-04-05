@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css';
 
-export function CountDown() {
+export default function CountDown() {
     return (
         <div>
             <p className="text-sm">Remaining Days to my Trip</p>
