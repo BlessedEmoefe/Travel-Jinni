@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Card = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const DateRibbon = () => {
     return (
         <div className="w-full md:w-60">
