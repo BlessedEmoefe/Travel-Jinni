@@ -61,7 +61,7 @@ export default function Home() {
             <div className="flex flex-col px-5 md:px-14 py-4 md:flex-row justify-between">
                 <div className="w-full md:w-60">
                     <h1 className="font-bold text-xl font-serif py-1">Six Days In Dubai</h1>
-                    <ul class="flex flex-row md:flex-col ">
+                    <ul className="flex flex-row md:flex-col ">
                         <li className="w-8 h-8 flex items-center justify-center">FEB</li>
                         <li className="bg-opacity-50 bg-black text-yellow-300 w-8 h-8 rounded-full flex items-center justify-center border-yellow-300 border-2 text-sm font-bold font-mono">
                             15
@@ -74,12 +74,9 @@ export default function Home() {
                     </ul>
                 </div>
 
-
-
-
-                <div class="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">
-                    <div class="flex justify-center pl-0 pt-16 ">
-                        <div class="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
+                <div className="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">
+                    <div className="flex justify-center pl-0 pt-16 ">
+                        <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
                             <img src="/logo.png" className="w-18 h-18 rounded-full" />
                         </div>
                         <div className="ml-4 text-center border border-white">
@@ -104,9 +101,7 @@ export default function Home() {
                         </button>
                     </div>
                 </div>
-                <div class="">
-
-                </div>
+                <div className=""></div>
             </div>
         </div>
     );
