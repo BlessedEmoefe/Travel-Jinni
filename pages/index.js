@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Border } from './components/border.component';
-import { Card } from './components/card.component';
-import { CountDown } from './components/countDown.component';
-import { DateRibbon } from './components/dateRibbon.component';
-import { LanguageTranslator } from './components/languageTranslator.component';
+import { Border } from './components/border';
+import { Card } from './components/card';
+import { CountDown } from './components/countDown';
+import { DateRibbon } from './components/dateRibbon';
+import { LanguageTranslator } from './components/languageTranslator';
 
 export default function Home() {
     return (
