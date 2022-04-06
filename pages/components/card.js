@@ -3,7 +3,7 @@ export default function Card() {
         <div className="flex flex-col justify-center items-center w-full md:w-3/5 lg:w-2/5">
             <div className="flex justify-center pl-0 pt-16 ">
                 <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
-                    <img src="/logo.png" className="w-18 h-18 rounded-full" alt="logo" />
+                    <img src="/logo.png" className="w-18 h-18 rounded-full" alt="logo" style={{width:"auto",height:"auto"}} />
                 </div>
                 <div className="ml-4 text-center border border-white">
                     <h1 className="head-t font-bold font-mono tracking-wide px-3">HILTON HOTEL</h1>
