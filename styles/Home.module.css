@@ -8,7 +8,7 @@
     background-color: rgba(0, 0, 0, 0.466);
     background-blend-mode: overlay;
     color: white;
-    background-image: url('/bgimage.png');
+    background-image: url('/public/bgimage.webp');
     background-repeat: no-repeat;
     background-size: cover, 90%;
 }
