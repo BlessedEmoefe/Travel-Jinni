@@ -11,6 +11,10 @@ export default function Home() {
         <div className={styles.container}>
             <Head>
                 <title>Travel Jinni</title>
+                <meta
+                    name="desc"
+                    content="Travel Jini is the leading platform for tips and information about travels globally "
+                />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
