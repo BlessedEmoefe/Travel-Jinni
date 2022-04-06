@@ -15,4 +15,4 @@ export default function DateRibbon() {
             </ul>
         </div>
     );
-};
+}
