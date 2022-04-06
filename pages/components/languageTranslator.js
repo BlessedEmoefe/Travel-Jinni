@@ -1,5 +1,3 @@
-
-
 export default function LanguageTranslator() {
     return (
         <div className="flex text-sm py-5">
